@@ -12,7 +12,7 @@ namespace Banda
      * При аресте оповещает всех об отмене ограбления.
      */
     class Ringleader : IRingleader
-    {   
+    {       
         public int State { get; set; } = 0;
 
         private int bandaReadyState = 0;
